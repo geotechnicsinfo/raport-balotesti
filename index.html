@@ -378,7 +378,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
         <div class="sec-h"><h2>Centralizator foraje</h2><span class="n">foraje geotehnice executate</span>
           <div class="right"><button class="btn" id="btn-csv">Descarcă CSV</button><button class="btn" onclick="window.print()">Tipărește</button></div></div>
         <div class="tblwrap"><table class="tbl" id="tbl"></table></div>
-        <p class="src">* coordonate Stereo 70 calculate din GPS-ul de teren; cota terenului din ridicarea topografică, în punctul forajului.</p>
+        <p class="src">* coordonate Stereo 70 calculate din GPS-ul de teren (F7: poziție corectată, GPS-ul din fișă este eronat); cota terenului din ridicarea topografică, în punctul forajului.</p>
       </div>
     </section>
   </div>
@@ -732,7 +732,7 @@ function renderDetail(id){
       <div class="kv"><span>Adâncime</span><b>${n2(i.adancime)} m</b>${i.adancime_proiectata?`<div class="sm">proiectat ${n0(i.adancime_proiectata)},00 m</div>`:''}</div>
       <div class="kv ${hasWater(i)?'water':''}"><span>Apă subterană</span><b>${esc(waterTxt(i))}</b>${i.apa&&hasWater(i)?`<div class="sm">fișă: ${esc(i.apa)}</div>`:''}</div>
       <div class="kv"><span>Cotă teren</span><b>${n2(i.cota)} m</b><div class="sm">din ridicarea topografică</div></div>
-      <div class="kv"><span>GPS teren (WGS84)</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.gps_dms.join(' · ')||i.coord_sursa)}</div></div>
+      <div class="kv"><span>${i.coord_sursa==='GPS teren'?'GPS teren (WGS84)':'Poziție (WGS84)'}</span><b class="mono">${i.lat!=null?i.lat.toFixed(6)+', '+i.lon.toFixed(6):'—'}</b><div class="sm">${esc(i.coord_sursa==='GPS teren'?(i.gps_dms.join(' · ')||i.coord_sursa):i.coord_sursa)}</div></div>
       <div class="kv"><span>Stereo 70</span><b class="mono">${i.stereo70?`N ${i.stereo70.N.toFixed(2)} · E ${i.stereo70.E.toFixed(2)}`:'—'}</b>${gmaps?`<div class="sm"><a href="${gmaps}" target="_blank" rel="noopener">Deschide în Google Maps ↗</a></div>`:''}</div>
       <div class="kv"><span>Amplasare</span><b style="font-size:14px">${esc(shortAmp(i.amplasare))}</b><div class="sm">${etapa(i.amplasare)?'etapa '+etapa(i.amplasare):''}</div></div>
       <div class="kv"><span>Probe la laborator</span><b>${nt} netulburate · ${i.lab.length-nt} tulburate</b><div class="sm">foraje la ≤ 60 m: ${nf.length?nf.map(x=>`<a href="#/i/${x.i.id}">${x.i.id}</a> ${x.d.toFixed(0)} m`).join(', '):'—'}</div></div>

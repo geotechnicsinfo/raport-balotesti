@@ -32,7 +32,11 @@ QUALITY = 68
 LUNA_GRESITA = ('2026-10', '2026-09')
 CORECTII = {
     'F5': {'adancime': 8.0, 'nota': 'Adâncimea reală a forajului este 8,00 m (pe fișă: 7,00 m); proba P8 a fost prelevată la 8,00 m.'},
-    'F7': {'nota': 'Forajul a fost oprit la 4,00 m pe o piatră mare și a fost reluat în apropiere ca F7b. Fotografiile de teren sunt prezentate la F7b.'},
+    # F7: GPS-ul din fișă este eronat (~44 m NE de F7b); poziția reală indicată de Ioan (12.10.2026): spre F7b,
+    # pe limita vestică a clădirii L17 din dreapta (~10,6 m E de F7b). Stereo 70 și cota calculate din DEM-ul topo.
+    'F7': {'nota': 'Forajul a fost oprit la 4,00 m pe o piatră mare și a fost reluat în apropiere ca F7b. Fotografiile de teren sunt prezentate la F7b.',
+           'pozitie': {'lat': 44.627438, 'lon': 26.102995, 'N': 348117.38, 'E': 587638.86, 'cota': 89.06,
+                       'sursa': 'poziție corectată (GPS din fișă eronat)'}},
     'F7b': {'proiectat': 'F7', 'nota': 'Foraj de înlocuire pentru F7 (oprit la 4,00 m).'},
     'F8': {'nota': 'Data execuției nu este consemnată pe fișă.'},
 }
@@ -244,6 +248,9 @@ def main():
         lat, lon, src = f['lat'], f['lon'], 'GPS teren'
         if (lat is None or lon is None) and planned: lat, lon, src = planned['lat'], planned['lon'], 'punct proiectat (fără GPS în fișă)'
         ct = cote.get(iid, {})
+        if corr.get('pozitie'):
+            pz = corr['pozitie']; lat, lon, src = pz['lat'], pz['lon'], pz['sursa']
+            ct = {'cota': pz['cota'], 'N': pz['N'], 'E': pz['E']}
         probe_lab = lab.get(iid, [])
         investigatii.append({
             'id': iid, 'id_fisa': iid, 'tip': 'foraj', 'nr': int(re.sub(r'\D', '', iid)),

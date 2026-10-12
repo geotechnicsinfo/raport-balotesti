@@ -2120,13 +2120,13 @@
     "N 44°37'39.9\"",
     "E 26°06'11.6\""
    ],
-   "lat": 44.62775,
-   "lon": 26.103222,
-   "coord_sursa": "GPS teren",
-   "cota": 91.51,
+   "lat": 44.627438,
+   "lon": 26.102995,
+   "coord_sursa": "poziție corectată (GPS din fișă eronat)",
+   "cota": 89.06,
    "stereo70": {
-    "N": 348152.29,
-    "E": 587656.42
+    "N": 348117.38,
+    "E": 587638.86
    },
    "proiectat": {
     "id": "F7",

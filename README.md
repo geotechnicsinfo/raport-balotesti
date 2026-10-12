@@ -51,7 +51,7 @@ Necesită `openpyxl` și `Pillow`. Pozele deja procesate sunt sărite.
 
 - Pe fișe luna este trecută greșit (10 în loc de 09); s-au reținut datele 11–14.09.2026. F8 nu are dată pe fișă.
 - F5: adâncimea reală 8,00 m (fișa: 7,00 m), proba P8 de la 8,00 m.
-- F7: oprit la 4,00 m pe o piatră mare, reluat ca F7b. Pozele din folderul `f7` nu se pot separa sigur
+- F7: oprit la 4,00 m pe o piatră mare, reluat ca F7b. GPS-ul din fișa F7 este eronat; poziția afișată (corectată 12.10.2026) e pe limita vestică a clădirii L17, la ~10,6 m E de F7b. Pozele din folderul `f7` nu se pot separa sigur
   și sunt afișate la F7b; F7 păstrează fișa manuscrisă. Buletinele 8005–8007 („F7” în antet) sunt ale F7b.
 - „IN” în fișă = infiltrație de apă (F7b la 6,00 m; F8 infiltrație slabă la 6,50 m).
 - Denumirea pământurilor: diagrama ternară NP 074/2022 din granulometrie; F8-P4 (8013) are doar forfecare directă.
