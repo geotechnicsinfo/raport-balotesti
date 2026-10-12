@@ -1,0 +1,4230 @@
+{
+ "stadiu": [
+  {
+   "categorie": "Foraje geotehnice (plan: 8 foraje)",
+   "proiectate": 8,
+   "executate": 8,
+   "neexecutate": [],
+   "obs": "F7 oprit la 4,00 m – reluat ca F7b"
+  },
+  {
+   "categorie": "Probe încercate în laborator",
+   "proiectate": 45,
+   "executate": 45,
+   "neexecutate": [],
+   "obs": "15 netulburate · buletine BBC"
+  }
+ ],
+ "proiect": {
+  "titlu": "Investigații geotehnice – Balotești, str. Lacului",
+  "beneficiar_lucrare": "Ansamblu de locuințe cuplate P+1E+pod și clădire cu funcțiuni conexe P+2E",
+  "amplasament": "str. Lacului, NC 66359, com. Balotești, jud. Ilfov",
+  "executant": "SC BBCGEOTECHNIC SRL",
+  "tip_lucrari": "Foraje geotehnice cu prelevare de probe (F1–F8, 4–8 m) și încercări de laborator",
+  "perioada": {
+   "de_la": "2026-09-11",
+   "pana_la": "2026-09-14"
+  },
+  "generat": "2026-10-12"
+ },
+ "investigatii": [
+  {
+   "id": "F1",
+   "id_fisa": "F1",
+   "tip": "foraj",
+   "nr": 1,
+   "amplasare": "Clădire funcțiuni conexe P+2E (Etapa XI)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F1",
+   "data": "2026-09-11",
+   "nota_data": "Pe fișă luna este trecută greșit (11.10.2026); data execuției: 11.09.2026.",
+   "adancime": 7.0,
+   "adancime_proiectata": 10.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'43.0\"",
+    "E 026°06'08.4\""
+   ],
+   "lat": 44.628611,
+   "lon": 26.102333,
+   "coord_sursa": "GPS teren",
+   "cota": 91.72,
+   "stereo70": {
+    "N": 348247.0,
+    "E": 587584.58
+   },
+   "proiectat": {
+    "id": "F1",
+    "lat": 44.62856,
+    "lon": 26.102284,
+    "stereo70": {
+     "N": 348241.31,
+     "E": 587580.7
+    },
+    "cota": 92.34,
+    "obs": "Clădire funcțiuni conexe P+2E (Etapa XI)",
+    "adancime": "10 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 0.7,
+     "descriere": "argilă prăfoasă cafenie tare"
+    },
+    {
+     "de": 0.7,
+     "la": 1.2,
+     "descriere": "argilă prăfoasă cafenie-cărămizie tare"
+    },
+    {
+     "de": 1.2,
+     "la": 3.6,
+     "descriere": "argilă prăfoasă cafenie tare cu concrețiuni calcaroase"
+    },
+    {
+     "de": 3.6,
+     "la": 5.0,
+     "descriere": "argilă prăfoasă cafenie vârtoasă cu concrețiuni calcaroase"
+    },
+    {
+     "de": 5.0,
+     "la": 6.0,
+     "descriere": "argilă prăfoasă cafenie consistentă, slab nisipoasă"
+    },
+    {
+     "de": 6.0,
+     "la": 7.0,
+     "descriere": "nisip fin cu calcar"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă nisipoasă"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Nisip argilos"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip argilos"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "7969",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 46.0,
+     "P": 52.0,
+     "N": 2.0,
+     "Pi": 0.0,
+     "w": 16.3,
+     "wL": 58.3,
+     "wP": 13.6,
+     "IP": 44.0,
+     "IC": 0.9407582719660893,
+     "IA": 0.950918818849885,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "7970",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 47.0,
+     "P": 46.0,
+     "N": 7.0,
+     "Pi": 0.0,
+     "w": 17.7,
+     "wL": 55.5,
+     "wP": 15.0,
+     "IP": 41.0,
+     "IC": 0.9343183484190154,
+     "IA": 0.8625234264829488,
+     "gama": 18.647876693484516,
+     "gama_d": 15.776456886946566,
+     "e": 0.654021570685536,
+     "n": 39.5,
+     "Sr": 0.704543144271028,
+     "M23": null,
+     "M23_sat": 7407.407407407408,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7971",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 36.0,
+     "P": 47.0,
+     "N": 17.0,
+     "Pi": 0.0,
+     "w": 15.3,
+     "wL": 55.1,
+     "wP": 16.0,
+     "IP": 39.0,
+     "IC": 1.0178899190894424,
+     "IA": 1.0557707231777933,
+     "gama": 19.897139380459368,
+     "gama_d": 17.298921909467186,
+     "e": 0.5084523842910237,
+     "n": 33.7,
+     "Sr": 0.7864189956953919,
+     "M23": null,
+     "M23_sat": 12658.227848101265,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P5",
+     "adancime": 5.0,
+     "buletin": "7972",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă nisipoasă",
+     "den_buletin": "Argila nisipoasa / Sandy clay (sa.Cl)",
+     "culoare": "cafenie",
+     "A": 37.0,
+     "P": 41.0,
+     "N": 22.0,
+     "Pi": 0.0,
+     "w": 18.2,
+     "wL": 49.0,
+     "wP": 13.3,
+     "IP": 36.0,
+     "IC": 0.8624281531032174,
+     "IA": 0.9397603762326029,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "7976",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip argilos",
+     "den_buletin": "Argila prafoasa nisipoasa / Sandy silty clay (sa.si.Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 19.0,
+     "P": 42.0,
+     "N": 39.0,
+     "Pi": 0.0,
+     "w": 18.3,
+     "wL": 36.0,
+     "wP": 16.8,
+     "IP": 19.0,
+     "IC": 0.9194411333321514,
+     "IA": 1.0126212291725152,
+     "gama": 18.931584743845754,
+     "gama_d": 15.970228667740841,
+     "e": 0.6339528094992121,
+     "n": 38.8,
+     "Sr": 0.7546520850652827,
+     "M23": 10526.315789473681,
+     "M23_sat": 10000.0,
+     "im3": 0.2999999999999998,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "7974",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip argilos",
+     "den_buletin": "Argila prafoasa nisipoasa / Sandy silty clay (sa.si.Cl)",
+     "culoare": "cafeniu",
+     "A": 11.0,
+     "P": 33.0,
+     "N": 56.0,
+     "Pi": 0.0,
+     "w": 15.7,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F1/fisa1.jpg",
+    "thumb": "photos/F1/t_fisa1.jpg",
+    "original": "f1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F1/fisa1.jpg",
+     "thumb": "photos/F1/t_fisa1.jpg",
+     "original": "f1.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F1/01.jpg",
+     "thumb": "photos/F1/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.47.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/02.jpg",
+     "thumb": "photos/F1/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.48.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/03.jpg",
+     "thumb": "photos/F1/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.481.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/04.jpg",
+     "thumb": "photos/F1/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.482.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/05.jpg",
+     "thumb": "photos/F1/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.483.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/06.jpg",
+     "thumb": "photos/F1/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.484.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 22:01"
+    },
+    {
+     "src": "photos/F1/07.jpg",
+     "thumb": "photos/F1/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 22.01.485.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 22:01"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "id_fisa": "F2",
+   "tip": "foraj",
+   "nr": 2,
+   "amplasare": "Locuință cuplată TIP 1 – rând vest, capăt nord (Etapa I)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F2",
+   "data": "2026-09-12",
+   "nota_data": null,
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'42.0\"",
+    "E 026°06'05.4\""
+   ],
+   "lat": 44.628333,
+   "lon": 26.1015,
+   "coord_sursa": "GPS teren",
+   "cota": 93.64,
+   "stereo70": {
+    "N": 348215.23,
+    "E": 587518.88
+   },
+   "proiectat": {
+    "id": "F2",
+    "lat": 44.62836,
+    "lon": 26.101554,
+    "stereo70": {
+     "N": 348218.29,
+     "E": 587523.13
+    },
+    "cota": 93.57,
+    "obs": "Locuință cuplată TIP 1 – rând vest, capăt nord (Etapa I)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal cu vegetație"
+    },
+    {
+     "de": 0.1,
+     "la": 0.3,
+     "descriere": "argilă prăfoasă cafenie tare-vârtoasă"
+    },
+    {
+     "de": 0.3,
+     "la": 2.1,
+     "descriere": "argilă prăfoasă cafenie-gălbuie vârtoasă, spre consistentă"
+    },
+    {
+     "de": 2.1,
+     "la": 3.1,
+     "descriere": "argilă prăfoasă cafenie-roșiatică consistentă, cu concrețiuni calcaroase"
+    },
+    {
+     "de": 3.1,
+     "la": 3.4,
+     "descriere": "argilă prăfoasă cafenie-gălbuie consistentă, macroporică, cu calcar"
+    },
+    {
+     "de": 3.4,
+     "la": 4.7,
+     "descriere": "argilă prăfoasă cafenie-gălbuie consistentă"
+    },
+    {
+     "de": 4.7,
+     "la": 7.0,
+     "descriere": "praf argilos cafeniu-gălbui cu concrețiuni calcaroase"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă prăfoasă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă grasă"
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă grasă"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă nisipoasă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "7975",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 45.0,
+     "P": 52.0,
+     "N": 3.0,
+     "Pi": 0.0,
+     "w": 16.7,
+     "wL": 55.8,
+     "wP": 16.2,
+     "IP": 40.0,
+     "IC": 0.988588765848653,
+     "IA": 0.8793446096390337,
+     "gama": 19.80123431146162,
+     "gama_d": 17.10558481553337,
+     "e": 0.5255017750871529,
+     "n": 34.4,
+     "Sr": 0.8283595954861113,
+     "M23": null,
+     "M23_sat": 7843.137254901964,
+     "im3": null,
+     "phi": 26.473304610957193,
+     "c": 18.200000000000003,
+     "netulburata": true
+    },
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "7976",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 44.0,
+     "P": 52.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 20.0,
+     "wL": 65.3,
+     "wP": 16.1,
+     "IP": 49.0,
+     "IC": 0.9205763677565916,
+     "IA": 1.119050516723571,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "7977",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 33.0,
+     "P": 56.0,
+     "N": 11.0,
+     "Pi": 0.0,
+     "w": 17.3,
+     "wL": 52.7,
+     "wP": 16.0,
+     "IP": 37.0,
+     "IC": 0.9637620365147961,
+     "IA": 1.1114492518601966,
+     "gama": 17.800840554653846,
+     "gama_d": 15.10111726274373,
+     "e": 0.7279913496452689,
+     "n": 42.1,
+     "Sr": 0.6210694913223427,
+     "M23": 8333.333333333325,
+     "M23_sat": null,
+     "im3": 3.5,
+     "phi": 26.839410354693758,
+     "c": 14.933333333333323,
+     "netulburata": true
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7978",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 52.0,
+     "P": 41.0,
+     "N": 7.0,
+     "Pi": 0.0,
+     "w": 19.2,
+     "wL": 57.2,
+     "wP": 15.6,
+     "IP": 41.0,
+     "IC": 0.9133539881893663,
+     "IA": 0.8002950059845465,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P5",
+     "adancime": 5.0,
+     "buletin": "7979",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 51.0,
+     "P": 44.0,
+     "N": 5.0,
+     "Pi": 0.0,
+     "w": 17.4,
+     "wL": 57.1,
+     "wP": 16.4,
+     "IP": 41.0,
+     "IC": 0.9774375547706815,
+     "IA": 0.8136554282894073,
+     "gama": 19.576915488159788,
+     "gama_d": 16.80734274364343,
+     "e": 0.55257142059943,
+     "n": 35.6,
+     "Sr": 0.8194458112178783,
+     "M23": null,
+     "M23_sat": 6535.9477124183,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "7980",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 49.0,
+     "P": 49.0,
+     "N": 2.0,
+     "Pi": 0.0,
+     "w": 19.8,
+     "wL": 72.4,
+     "wP": 18.8,
+     "IP": 53.0,
+     "IC": 0.9816027678092031,
+     "IA": 0.9922973097596717,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "7981",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă nisipoasă",
+     "den_buletin": "Argila nisipoasa / Sandy clay (sa.Cl)",
+     "culoare": "cafenie PAN",
+     "A": 36.0,
+     "P": 38.0,
+     "N": 26.0,
+     "Pi": 0.0,
+     "w": 12.7,
+     "wL": 38.8,
+     "wP": 9.7,
+     "IP": 29.0,
+     "IC": 0.8965468320336415,
+     "IA": 0.7859694861577518,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F2/fisa1.jpg",
+    "thumb": "photos/F2/t_fisa1.jpg",
+    "original": "f2.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F2/fisa1.jpg",
+     "thumb": "photos/F2/t_fisa1.jpg",
+     "original": "f2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F2/01.jpg",
+     "thumb": "photos/F2/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.40.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/02.jpg",
+     "thumb": "photos/F2/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.401.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/03.jpg",
+     "thumb": "photos/F2/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.402.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/04.jpg",
+     "thumb": "photos/F2/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.403.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/05.jpg",
+     "thumb": "photos/F2/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.404.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/06.jpg",
+     "thumb": "photos/F2/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.405.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F2/07.jpg",
+     "thumb": "photos/F2/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.406.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "id_fisa": "F3",
+   "tip": "foraj",
+   "nr": 3,
+   "amplasare": "Locuință cuplată TIP 1 – rând est, capăt nord (Etapa VIII)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F3",
+   "data": "2026-09-12",
+   "nota_data": "Pe fișă luna este trecută greșit (12.10.2026); data execuției: 12.09.2026.",
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'41.8\"",
+    "E 026°06'09.2\""
+   ],
+   "lat": 44.628278,
+   "lon": 26.102556,
+   "coord_sursa": "GPS teren",
+   "cota": 94.73,
+   "stereo70": {
+    "N": 348210.21,
+    "E": 587602.72
+   },
+   "proiectat": {
+    "id": "F3",
+    "lat": 44.628318,
+    "lon": 26.102503,
+    "stereo70": {
+     "N": 348214.64,
+     "E": 587598.46
+    },
+    "cota": 94.61,
+    "obs": "Locuință cuplată TIP 1 – rând est, capăt nord (Etapa VIII)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal cu vegetație"
+    },
+    {
+     "de": 0.1,
+     "la": 1.0,
+     "descriere": "argilă prăfoasă cafenie tare-vârtoasă"
+    },
+    {
+     "de": 1.0,
+     "la": 1.5,
+     "descriere": "argilă prăfoasă cafenie-cărămizie tare-vârtoasă"
+    },
+    {
+     "de": 1.5,
+     "la": 2.0,
+     "descriere": "praf argilos vârtos, cafeniu-gălbui, cu concrețiuni calcaroase, macroporic"
+    },
+    {
+     "de": 2.0,
+     "la": 3.0,
+     "descriere": "praf argilos vârtos, de culoare cărămizie, cu calcar"
+    },
+    {
+     "de": 3.0,
+     "la": 5.0,
+     "descriere": "praf argilos cafeniu-gălbui cu calcar"
+    },
+    {
+     "de": 5.0,
+     "la": 7.0,
+     "descriere": "praf argilos cafeniu, vârtos-consistent"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă prăfoasă cu rar pietriș"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă grasă"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă grasă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "7982",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie, macroporica",
+     "A": 45.0,
+     "P": 50.0,
+     "N": 5.0,
+     "Pi": 0.0,
+     "w": 14.8,
+     "wL": 53.6,
+     "wP": 13.5,
+     "IP": 40.0,
+     "IC": 0.9696652925045197,
+     "IA": 0.8906976516662682,
+     "gama": 17.88214413561476,
+     "gama_d": 15.519218034828036,
+     "e": 0.6814378109411715,
+     "n": 40.5,
+     "Sr": 0.5652359537118589,
+     "M23": 12658.227848101265,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "7983",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă cu rar pietriș",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu AP",
+     "A": 31.0,
+     "P": 58.0,
+     "N": 7.0,
+     "Pi": 4.0,
+     "w": 11.8,
+     "wL": 60.9,
+     "wP": 16.4,
+     "IP": 45.0,
+     "IC": 1.1027845935533782,
+     "IA": 1.4369006075467523,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7984",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 46.0,
+     "P": 50.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 11.5,
+     "wL": 56.2,
+     "wP": 14.6,
+     "IP": 41.0,
+     "IC": 1.0737037150475552,
+     "IA": 0.8851736304895362,
+     "gama": 16.381482700397044,
+     "gama_d": 14.60892058747726,
+     "e": 0.7862099970868656,
+     "n": 44.0,
+     "Sr": 0.38260802961970086,
+     "M23": 18181.818181818187,
+     "M23_sat": null,
+     "im3": 7.349999999999999,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "7985",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu AP",
+     "A": 62.0,
+     "P": 36.0,
+     "N": 2.0,
+     "Pi": 0.0,
+     "w": 16.1,
+     "wL": 64.8,
+     "wP": 17.5,
+     "IP": 48.0,
+     "IC": 1.0300116593773108,
+     "IA": 0.7636044612012519,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "7986",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu",
+     "A": 52.0,
+     "P": 47.0,
+     "N": 1.0,
+     "Pi": 0.0,
+     "w": 16.0,
+     "wL": 65.0,
+     "wP": 17.9,
+     "IP": 47.0,
+     "IC": 1.040285411226697,
+     "IA": 0.9238920261999717,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F3/fisa1.jpg",
+    "thumb": "photos/F3/t_fisa1.jpg",
+    "original": "f3.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F3/fisa1.jpg",
+     "thumb": "photos/F3/t_fisa1.jpg",
+     "original": "f3.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F3/01.jpg",
+     "thumb": "photos/F3/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.41.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/02.jpg",
+     "thumb": "photos/F3/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.411.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/03.jpg",
+     "thumb": "photos/F3/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.412.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/04.jpg",
+     "thumb": "photos/F3/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.413.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/05.jpg",
+     "thumb": "photos/F3/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.414.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/06.jpg",
+     "thumb": "photos/F3/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.415.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/07.jpg",
+     "thumb": "photos/F3/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.416.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:55"
+    },
+    {
+     "src": "photos/F3/08.jpg",
+     "thumb": "photos/F3/t_08.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.55.417.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:55"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "id_fisa": "F4",
+   "tip": "foraj",
+   "nr": 4,
+   "amplasare": "Locuință cuplată TIP 1 – rând vest, zona centrală (Etapa III)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F4",
+   "data": "2026-09-12",
+   "nota_data": "Pe fișă luna este trecută greșit (12.10.2026); data execuției: 12.09.2026.",
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'40.4\"",
+    "E 026°06'07.6\""
+   ],
+   "lat": 44.627889,
+   "lon": 26.102111,
+   "coord_sursa": "GPS teren",
+   "cota": 95.04,
+   "stereo70": {
+    "N": 348166.52,
+    "E": 587568.05
+   },
+   "proiectat": {
+    "id": "F4",
+    "lat": 44.627836,
+    "lon": 26.102071,
+    "stereo70": {
+     "N": 348160.57,
+     "E": 587564.95
+    },
+    "cota": 95.18,
+    "obs": "Locuință cuplată TIP 1 – rând vest, zona centrală (Etapa III)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.15,
+     "descriere": "sol vegetal cu pietriș mărunt"
+    },
+    {
+     "de": 0.15,
+     "la": 1.0,
+     "descriere": "argilă prăfoasă cafenie tare-vârtoasă"
+    },
+    {
+     "de": 1.0,
+     "la": 1.3,
+     "descriere": "argilă prăfoasă cărămizie"
+    },
+    {
+     "de": 1.3,
+     "la": 1.5,
+     "descriere": "praf argilos cafeniu-gălbui cu calcar, vârtos"
+    },
+    {
+     "de": 1.5,
+     "la": 1.8,
+     "descriere": "praf argilos cafeniu vârtos, cu calcar"
+    },
+    {
+     "de": 1.8,
+     "la": 2.0,
+     "descriere": "praf argilos cafeniu vârtos"
+    },
+    {
+     "de": 2.0,
+     "la": 4.0,
+     "descriere": "praf argilos cafeniu-gălbui cu calcar, vârtos"
+    },
+    {
+     "de": 4.0,
+     "la": 7.0,
+     "descriere": "praf argilos cafeniu, vârtos-consistent"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă prăfoasă"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "7987",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu",
+     "A": 43.0,
+     "P": 53.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 14.5,
+     "wL": 50.1,
+     "wP": 14.3,
+     "IP": 36.0,
+     "IC": 0.9928295069240646,
+     "IA": 0.8337426207031025,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7988",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 34.0,
+     "P": 62.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 16.2,
+     "wL": 52.5,
+     "wP": 16.1,
+     "IP": 37.0,
+     "IC": 0.9979480200710631,
+     "IA": 1.0713114541766393,
+     "gama": 15.8451354927977,
+     "gama_d": 13.555848631093182,
+     "e": 0.9249698569329377,
+     "n": 48.1,
+     "Sr": 0.4557434870283014,
+     "M23": 5405.405405405407,
+     "M23_sat": null,
+     "im3": 7.95,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "7989",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 44.0,
+     "P": 52.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 19.8,
+     "wL": 55.3,
+     "wP": 15.3,
+     "IP": 40.0,
+     "IC": 0.887379659719823,
+     "IA": 0.9087698054263903,
+     "gama": 17.753419612518538,
+     "gama_d": 14.806780380524579,
+     "e": 0.762341260516185,
+     "n": 43.3,
+     "Sr": 0.6788676120706513,
+     "M23": 11111.111111111117,
+     "M23_sat": null,
+     "im3": 3.0500000000000003,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F4/fisa1.jpg",
+    "thumb": "photos/F4/t_fisa1.jpg",
+    "original": "f4.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F4/fisa1.jpg",
+     "thumb": "photos/F4/t_fisa1.jpg",
+     "original": "f4.jpeg",
+     "w": 1600,
+     "h": 1200
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F4/01.jpg",
+     "thumb": "photos/F4/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-12 at 19.02.14.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-12 19:02"
+    },
+    {
+     "src": "photos/F4/02.jpg",
+     "thumb": "photos/F4/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.54.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/03.jpg",
+     "thumb": "photos/F4/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.541.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/04.jpg",
+     "thumb": "photos/F4/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.542.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/05.jpg",
+     "thumb": "photos/F4/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.543.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/06.jpg",
+     "thumb": "photos/F4/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.544.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/07.jpg",
+     "thumb": "photos/F4/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.545.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:59"
+    },
+    {
+     "src": "photos/F4/08.jpg",
+     "thumb": "photos/F4/t_08.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.59.546.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:59"
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "id_fisa": "F5",
+   "tip": "foraj",
+   "nr": 5,
+   "amplasare": "Locuință cuplată TIP 1 – rând est, zona centrală (Etapa IX)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F5",
+   "data": "2026-09-13",
+   "nota_data": "Pe fișă luna este trecută greșit (13.10.2026); data execuției: 13.09.2026. Adâncimea reală a forajului este 8,00 m (pe fișă: 7,00 m); proba P8 a fost prelevată la 8,00 m.",
+   "adancime": 8.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'40.6\"",
+    "E 026°06'09.8\""
+   ],
+   "lat": 44.627944,
+   "lon": 26.102722,
+   "coord_sursa": "GPS teren",
+   "cota": 94.46,
+   "stereo70": {
+    "N": 348173.35,
+    "E": 587616.45
+   },
+   "proiectat": {
+    "id": "F5",
+    "lat": 44.627963,
+    "lon": 26.102748,
+    "stereo70": {
+     "N": 348175.44,
+     "E": 587618.43
+    },
+    "cota": 94.47,
+    "obs": "Locuință cuplată TIP 1 – rând est, zona centrală (Etapa IX)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 0.8,
+     "descriere": "argilă prăfoasă cafenie tare"
+    },
+    {
+     "de": 0.8,
+     "la": 1.4,
+     "descriere": "argilă prăfoasă cafenie-cărămizie tare"
+    },
+    {
+     "de": 1.4,
+     "la": 4.0,
+     "descriere": "praf argilos cu concrețiuni calcaroase, cafeniu-gălbui, consistent"
+    },
+    {
+     "de": 4.0,
+     "la": 8.0,
+     "descriere": "praf argilos cafeniu, consistent, cu calcar"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă prăfoasă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 8,
+     "adancime": 8.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Argilă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "7990",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu",
+     "A": 39.0,
+     "P": 55.0,
+     "N": 6.0,
+     "Pi": 0.0,
+     "w": 16.0,
+     "wL": 53.0,
+     "wP": 17.2,
+     "IP": 36.0,
+     "IC": 1.034614693675192,
+     "IA": 0.9430120180442749,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "7991",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 36.0,
+     "P": 57.0,
+     "N": 7.0,
+     "Pi": 0.0,
+     "w": 16.0,
+     "wL": 39.5,
+     "wP": 12.7,
+     "IP": 26.0,
+     "IC": 0.8753518611683262,
+     "IA": 0.745326529277662,
+     "gama": 18.20296269543607,
+     "gama_d": 15.692121320978082,
+     "e": 0.6629109262057081,
+     "n": 39.9,
+     "Sr": 0.6301386492349614,
+     "M23": 8849.557522123898,
+     "M23_sat": null,
+     "im3": 4.63,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7992",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 39.0,
+     "P": 54.0,
+     "N": 7.0,
+     "Pi": 0.0,
+     "w": 20.0,
+     "wL": 48.3,
+     "wP": 14.9,
+     "IP": 33.0,
+     "IC": 0.8487195797847784,
+     "IA": 0.8353150011914042,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P5",
+     "adancime": 5.0,
+     "buletin": "7993",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 42.0,
+     "P": 54.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 18.1,
+     "wL": 54.0,
+     "wP": 14.2,
+     "IP": 40.0,
+     "IC": 0.9014159308460111,
+     "IA": 0.9478310270366693,
+     "gama": 18.5980697137518,
+     "gama_d": 15.84761505076685,
+     "e": 0.6465947662413287,
+     "n": 39.3,
+     "Sr": 0.7308563005191602,
+     "M23": 15384.615384615376,
+     "M23_sat": null,
+     "im3": 3.1500000000000004,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P8",
+     "adancime": 8.0,
+     "buletin": "7994",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu, macroporic",
+     "A": 41.0,
+     "P": 52.0,
+     "N": 7.0,
+     "Pi": 0.0,
+     "w": 17.7,
+     "wL": 54.7,
+     "wP": 15.1,
+     "IP": 40.0,
+     "IC": 0.9339404845065306,
+     "IA": 0.9665518324627809,
+     "gama": 16.764008425505583,
+     "gama_d": 14.464740486661812,
+     "e": 0.8040143909987383,
+     "n": 44.6,
+     "Sr": 0.5741963167302798,
+     "M23": 9523.809523809517,
+     "M23_sat": null,
+     "im3": 3.3,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F5/fisa1.jpg",
+    "thumb": "photos/F5/t_fisa1.jpg",
+    "original": "f5.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F5/fisa1.jpg",
+     "thumb": "photos/F5/t_fisa1.jpg",
+     "original": "f5.jpeg",
+     "w": 1600,
+     "h": 1200
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F5/01.jpg",
+     "thumb": "photos/F5/t_01.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.09.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 10:00"
+    },
+    {
+     "src": "photos/F5/02.jpg",
+     "thumb": "photos/F5/t_02.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.10.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 10:00"
+    },
+    {
+     "src": "photos/F5/03.jpg",
+     "thumb": "photos/F5/t_03.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.101.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-10-06 10:00"
+    },
+    {
+     "src": "photos/F5/04.jpg",
+     "thumb": "photos/F5/t_04.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.102.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 10:00"
+    },
+    {
+     "src": "photos/F5/05.jpg",
+     "thumb": "photos/F5/t_05.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.103.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 10:00"
+    },
+    {
+     "src": "photos/F5/06.jpg",
+     "thumb": "photos/F5/t_06.jpg",
+     "original": "WhatsApp Image 2026-10-06 at 10.00.104.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-10-06 10:00"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "id_fisa": "F6",
+   "tip": "foraj",
+   "nr": 6,
+   "amplasare": "Locuință cuplată TIP 2 – rând vest, zona sud (Etapa IV)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F6",
+   "data": "2026-09-13",
+   "nota_data": "Pe fișă luna este trecută greșit (13.10.2026); data execuției: 13.09.2026.",
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'39.1\"",
+    "E 026°06'08.1\""
+   ],
+   "lat": 44.627528,
+   "lon": 26.10225,
+   "coord_sursa": "GPS teren",
+   "cota": 93.15,
+   "stereo70": {
+    "N": 348126.54,
+    "E": 587579.61
+   },
+   "proiectat": {
+    "id": "F6",
+    "lat": 44.627481,
+    "lon": 26.102316,
+    "stereo70": {
+     "N": 348121.36,
+     "E": 587584.9
+    },
+    "cota": 92.32,
+    "obs": "Locuință cuplată TIP 2 – rând vest, zona sud (Etapa IV)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 0.5,
+     "descriere": "argilă prăfoasă neagră, tare"
+    },
+    {
+     "de": 0.5,
+     "la": 1.0,
+     "descriere": "argilă prăfoasă cafenie, tare"
+    },
+    {
+     "de": 1.0,
+     "la": 2.3,
+     "descriere": "praf argilos cafeniu-gălbui, cu calcar mărunt, vârtos"
+    },
+    {
+     "de": 2.3,
+     "la": 3.5,
+     "descriere": "praf argilos cafeniu-gălbui, vârtos"
+    },
+    {
+     "de": 3.5,
+     "la": 4.5,
+     "descriere": "praf argilos gălbui, vârtos, cu calcar"
+    },
+    {
+     "de": 4.5,
+     "la": 5.2,
+     "descriere": "argilă prăfoasă cafenie, tare, cu calcar"
+    },
+    {
+     "de": 5.2,
+     "la": 6.0,
+     "descriere": "praf argilos cafeniu-gălbui, cu calcar, tare"
+    },
+    {
+     "de": 6.0,
+     "la": 7.0,
+     "descriere": "argilă prăfoasă cafenie, tare"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă prăfoasă"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "7995",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 42.0,
+     "P": 54.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 14.8,
+     "wL": 64.8,
+     "wP": 16.0,
+     "IP": 49.0,
+     "IC": 1.0232685427616028,
+     "IA": 1.1613334857388522,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "7996",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu",
+     "A": 36.0,
+     "P": 52.0,
+     "N": 12.0,
+     "Pi": 0.0,
+     "w": 13.5,
+     "wL": 48.0,
+     "wP": 16.0,
+     "IP": 32.0,
+     "IC": 1.0778409818152888,
+     "IA": 0.89011787461907,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "7997",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu",
+     "A": 33.0,
+     "P": 56.0,
+     "N": 11.0,
+     "Pi": 0.0,
+     "w": 11.9,
+     "wL": 56.2,
+     "wP": 15.7,
+     "IP": 40.0,
+     "IC": 1.094007867946742,
+     "IA": 1.192650994406152,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "7998",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafeniu",
+     "A": 39.0,
+     "P": 51.0,
+     "N": 10.0,
+     "Pi": 0.0,
+     "w": 14.0,
+     "wL": 65.0,
+     "wP": 18.8,
+     "IP": 46.0,
+     "IC": 1.1039461509874813,
+     "IA": 1.154747920955747,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "7999",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 49.0,
+     "P": 43.0,
+     "N": 8.0,
+     "Pi": 0.0,
+     "w": 16.7,
+     "wL": 68.6,
+     "wP": 17.2,
+     "IP": 52.0,
+     "IC": 1.009813545862334,
+     "IA": 1.028250171807298,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F6/fisa1.jpg",
+    "thumb": "photos/F6/t_fisa1.jpg",
+    "original": "f6.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F6/fisa1.jpg",
+     "thumb": "photos/F6/t_fisa1.jpg",
+     "original": "f6.jpeg",
+     "w": 1600,
+     "h": 1200
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F6/01.jpg",
+     "thumb": "photos/F6/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.03.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/02.jpg",
+     "thumb": "photos/F6/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.031.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/03.jpg",
+     "thumb": "photos/F6/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.032.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/04.jpg",
+     "thumb": "photos/F6/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.033.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/05.jpg",
+     "thumb": "photos/F6/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.04.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/06.jpg",
+     "thumb": "photos/F6/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.041.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    },
+    {
+     "src": "photos/F6/07.jpg",
+     "thumb": "photos/F6/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.50.043.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:50"
+    }
+   ]
+  },
+  {
+   "id": "F7",
+   "id_fisa": "F7",
+   "tip": "foraj",
+   "nr": 7,
+   "amplasare": "Locuință cuplată TIP 4' – rând est, capăt sud, spre lac (Etapa V)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F7",
+   "data": "2026-09-14",
+   "nota_data": "Pe fișă luna este trecută greșit (14.10.2026); data execuției: 14.09.2026. Forajul a fost oprit la 4,00 m pe o piatră mare și a fost reluat în apropiere ca F7b. Fotografiile de teren sunt prezentate la F7b.",
+   "adancime": 4.0,
+   "adancime_proiectata": 8.0,
+   "apa": "fără apă",
+   "NH": null,
+   "NH_24h": null,
+   "IN": null,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'39.9\"",
+    "E 26°06'11.6\""
+   ],
+   "lat": 44.62775,
+   "lon": 26.103222,
+   "coord_sursa": "GPS teren",
+   "cota": 91.51,
+   "stereo70": {
+    "N": 348152.29,
+    "E": 587656.42
+   },
+   "proiectat": {
+    "id": "F7",
+    "lat": 44.627432,
+    "lon": 26.103121,
+    "stereo70": {
+     "N": 348116.84,
+     "E": 587648.82
+    },
+    "cota": 88.28,
+    "obs": "Locuință cuplată TIP 4' – rând est, capăt sud, spre lac (Etapa V)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "pamant vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 0.5,
+     "descriere": "argilă prăfoasă cafenie, plastic tare spre vârtoasă"
+    },
+    {
+     "de": 0.5,
+     "la": 1.4,
+     "descriere": "praf argilos nisipos, cafeniu-albicios, cu praf calcaros și calcar"
+    },
+    {
+     "de": 1.4,
+     "la": 2.1,
+     "descriere": "praf nisipos, cafeniu cu intercalatii cărămizii, plastic consistent"
+    },
+    {
+     "de": 2.1,
+     "la": 2.6,
+     "descriere": "argilă prăfoasă cafenie, plastic vârtoasă"
+    },
+    {
+     "de": 2.6,
+     "la": 3.0,
+     "descriere": "praf argilos nisipos, cenușiu-cărămiziu, plastic consistent"
+    },
+    {
+     "de": 3.0,
+     "la": 4.0,
+     "descriere": "nisip cafeniu cu pietriș mediu și mare, umed; foraj oprit la 4,00 m din cauza unei pietre mari"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip argilos cu rar pietriș"
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip argilos cu rar pietriș"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": "Nisip argilos"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip cu pietriș"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "8000",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip argilos cu rar pietriș",
+     "den_buletin": "Argila prafoasa nisipoasa / Sandy silty clay (sa.si.Cl)",
+     "culoare": "cafeniu",
+     "A": 21.0,
+     "P": 36.0,
+     "N": 42.0,
+     "Pi": 1.0,
+     "w": 11.1,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "8001",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip argilos cu rar pietriș",
+     "den_buletin": "Argila prafoasa nisipoasa / Sandy silty clay (sa.si.Cl)",
+     "culoare": "cafeniu",
+     "A": 15.0,
+     "P": 43.0,
+     "N": 40.0,
+     "Pi": 2.0,
+     "w": 13.5,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "8002",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip argilos",
+     "den_buletin": "Argila prafoasa nisipoasa / Sandy silty clay (sa.si.Cl)",
+     "culoare": "cafeniu",
+     "A": 19.0,
+     "P": 32.0,
+     "N": 49.0,
+     "Pi": 0.0,
+     "w": 5.8,
+     "wL": 35.9,
+     "wP": 10.6,
+     "IP": 25.0,
+     "IC": 1.193498601640465,
+     "IA": 1.4043508788934473,
+     "gama": 19.06158353349255,
+     "gama_d": 16.78537831099777,
+     "e": 0.5546030310739459,
+     "n": 35.7,
+     "Sr": 0.27084599199127546,
+     "M23": 5882.352941176467,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": true
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "8003",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip cu pietriș",
+     "den_buletin": "Nisip cu pietris / Sand with gravel (gr.Sa)",
+     "culoare": "cafeniu",
+     "A": 0.0,
+     "P": 4.0,
+     "N": 71.0,
+     "Pi": 25.0,
+     "w": 8.5,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F7/fisa1.jpg",
+    "thumb": "photos/F7/t_fisa1.jpg",
+    "original": "f7.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F7/fisa1.jpg",
+     "thumb": "photos/F7/t_fisa1.jpg",
+     "original": "f7.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": []
+  },
+  {
+   "id": "F7b",
+   "id_fisa": "F7b",
+   "tip": "foraj",
+   "nr": 7,
+   "amplasare": "Locuință cuplată TIP 4' – rând est, capăt sud, spre lac (Etapa V)",
+   "categorie_kml": "Foraj geotehnic (înlocuire F7)",
+   "eticheta": "Foraj geotehnic F7b",
+   "data": "2026-09-14",
+   "nota_data": "Pe fișă luna este trecută greșit (14.10.2026); data execuției: 14.09.2026. Foraj de înlocuire pentru F7 (oprit la 4,00 m).",
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "IN=6.0m",
+   "NH": null,
+   "NH_24h": null,
+   "IN": 6.0,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'38.8\"",
+    "E 26°06'10.3\""
+   ],
+   "lat": 44.627444,
+   "lon": 26.102861,
+   "coord_sursa": "GPS teren",
+   "cota": 89.86,
+   "stereo70": {
+    "N": 348117.95,
+    "E": 587628.23
+   },
+   "proiectat": {
+    "id": "F7",
+    "lat": 44.627432,
+    "lon": 26.103121,
+    "stereo70": {
+     "N": 348116.84,
+     "E": 587648.82
+    },
+    "cota": 88.28,
+    "obs": "Locuință cuplată TIP 4' – rând est, capăt sud, spre lac (Etapa V)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "pamant vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 0.3,
+     "descriere": "argilă prăfoasă cafenie, plastic tare"
+    },
+    {
+     "de": 0.3,
+     "la": 0.8,
+     "descriere": "argilă prăfoasă cafeniu caramizie, plastic tare"
+    },
+    {
+     "de": 0.8,
+     "la": 1.7,
+     "descriere": "praf argilos cafeniu galbui, plastic tare, cu concr.calc."
+    },
+    {
+     "de": 1.7,
+     "la": 2.7,
+     "descriere": "argilă prăfoasă cafenie, cu calcar"
+    },
+    {
+     "de": 2.7,
+     "la": 3.2,
+     "descriere": "praf nisipos, caramiziu, plastic consistent"
+    },
+    {
+     "de": 3.2,
+     "la": 4.2,
+     "descriere": "nisip fin, cafeniu amestecat cu caramiziu"
+    },
+    {
+     "de": 4.2,
+     "la": 4.6,
+     "descriere": "argilă prăfoasă cafeniu negricioasa, plastic vartoasa"
+    },
+    {
+     "de": 4.6,
+     "la": 6.0,
+     "descriere": "nisip cafeniu, umed"
+    },
+    {
+     "de": 6.0,
+     "la": 6.1,
+     "descriere": "argilă prăfoasă cafeniu caramizie, plastic consistenta, cu calcar"
+    },
+    {
+     "de": 6.1,
+     "la": 7.0,
+     "descriere": "praf argilos nisipos, caramiziu, plastic consistent spre moale"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă nisipoasă"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip cu rar pietriș"
+    },
+    {
+     "nr": 6,
+     "adancime": 6.0,
+     "tip": "probă tulburată",
+     "observatii": "Nisip cu rar pietriș"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă prăfoasă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "8004",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă nisipoasă",
+     "den_buletin": "Argila nisipoasa / Sandy clay (sa.Cl)",
+     "culoare": "cafeniu",
+     "A": 28.0,
+     "P": 35.0,
+     "N": 37.0,
+     "Pi": 0.0,
+     "w": 7.4,
+     "wL": 36.3,
+     "wP": 14.3,
+     "IP": 22.0,
+     "IC": 1.3099341400083118,
+     "IA": 0.787346938830949,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "8005",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip cu rar pietriș",
+     "den_buletin": "Nisip / Sand (Sa)",
+     "culoare": "cafeniu",
+     "A": 0.0,
+     "P": 3.0,
+     "N": 96.0,
+     "Pi": 1.0,
+     "w": 2.2,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P6",
+     "adancime": 6.0,
+     "buletin": "8006",
+     "data_primire": "05.10.2026",
+     "denumire": "Nisip cu rar pietriș",
+     "den_buletin": "Nisip / Sand (Sa)",
+     "culoare": "cenusiu",
+     "A": 0.0,
+     "P": 5.0,
+     "N": 90.0,
+     "Pi": 5.0,
+     "w": 18.5,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "8007",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafenie",
+     "A": 37.0,
+     "P": 59.0,
+     "N": 4.0,
+     "Pi": 0.0,
+     "w": 26.1,
+     "wL": 43.0,
+     "wP": 13.3,
+     "IP": 30.0,
+     "IC": 0.5667490601210163,
+     "IA": 0.8032949171009898,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F7b/fisa1.jpg",
+    "thumb": "photos/F7b/t_fisa1.jpg",
+    "original": "f7B-1.jpeg",
+    "w": 1200,
+    "h": 1600
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F7b/fisa1.jpg",
+     "thumb": "photos/F7b/t_fisa1.jpg",
+     "original": "f7B-1.jpeg",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "src": "photos/F7b/fisa2.jpg",
+     "thumb": "photos/F7b/t_fisa2.jpg",
+     "original": "F7b-2.jpeg",
+     "w": 1200,
+     "h": 1600
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F7b/01.jpg",
+     "thumb": "photos/F7b/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-14 at 17.59.22.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-14 17:59"
+    },
+    {
+     "src": "photos/F7b/02.jpg",
+     "thumb": "photos/F7b/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-14 at 17.59.23.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-14 17:59"
+    },
+    {
+     "src": "photos/F7b/03.jpg",
+     "thumb": "photos/F7b/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.26.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/04.jpg",
+     "thumb": "photos/F7b/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.261.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/05.jpg",
+     "thumb": "photos/F7b/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.262.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/06.jpg",
+     "thumb": "photos/F7b/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.263.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/07.jpg",
+     "thumb": "photos/F7b/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.27.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/08.jpg",
+     "thumb": "photos/F7b/t_08.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.271.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/09.jpg",
+     "thumb": "photos/F7b/t_09.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.272.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/10.jpg",
+     "thumb": "photos/F7b/t_10.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.273.jpeg",
+     "w": 1600,
+     "h": 1200,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/11.jpg",
+     "thumb": "photos/F7b/t_11.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.274.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F7b/12.jpg",
+     "thumb": "photos/F7b/t_12.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.275.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    }
+   ]
+  },
+  {
+   "id": "F8",
+   "id_fisa": "F8",
+   "tip": "foraj",
+   "nr": 8,
+   "amplasare": "Locuință cuplată TIP 4' – rând vest, capăt sud, spre lac (Etapa V)",
+   "categorie_kml": "Foraj geotehnic",
+   "eticheta": "Foraj geotehnic F8",
+   "data": null,
+   "nota_data": "Data execuției nu este consemnată pe fișă.",
+   "adancime": 7.0,
+   "adancime_proiectata": 8.0,
+   "apa": "infiltrație slabă de apă la 6,50 m",
+   "NH": null,
+   "NH_24h": null,
+   "IN": 6.5,
+   "note_apa": [],
+   "gps_dms": [
+    "N 44°37'37.6\"",
+    "E 026°06'09.0\""
+   ],
+   "lat": 44.627111,
+   "lon": 26.1025,
+   "coord_sursa": "GPS teren",
+   "cota": 87.49,
+   "stereo70": {
+    "N": 348080.52,
+    "E": 587600.08
+   },
+   "proiectat": {
+    "id": "F8",
+    "lat": 44.627127,
+    "lon": 26.102566,
+    "stereo70": {
+     "N": 348082.38,
+     "E": 587605.27
+    },
+    "cota": 87.25,
+    "obs": "Locuință cuplată TIP 4' – rând vest, capăt sud, spre lac (Etapa V)",
+    "adancime": "8 m"
+   },
+   "straturi": [
+    {
+     "de": 0.0,
+     "la": 0.1,
+     "descriere": "sol vegetal"
+    },
+    {
+     "de": 0.1,
+     "la": 1.8,
+     "descriere": "argilă prăfoasă cafenie, tare"
+    },
+    {
+     "de": 1.8,
+     "la": 3.0,
+     "descriere": "praf argilos cafeniu-cenușiu, cu calcar, vârtos"
+    },
+    {
+     "de": 3.0,
+     "la": 4.2,
+     "descriere": "praf argilos cafeniu-gălbui, consistent, cu praf calcaros și calcar"
+    },
+    {
+     "de": 4.2,
+     "la": 5.3,
+     "descriere": "argilă prăfoasă cafenie-negricioasă, consistentă"
+    },
+    {
+     "de": 5.3,
+     "la": 7.0,
+     "descriere": "argilă prăfoasă cafenie, vârtoasă, cu calcar și praf calcaros, consistentă"
+    }
+   ],
+   "probe": [
+    {
+     "nr": 1,
+     "adancime": 1.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă"
+    },
+    {
+     "nr": 2,
+     "adancime": 2.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă cu rar pietriș"
+    },
+    {
+     "nr": 3,
+     "adancime": 3.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă prăfoasă cu rar pietriș"
+    },
+    {
+     "nr": 4,
+     "adancime": 4.0,
+     "tip": "probă netulburată (ștuț)",
+     "observatii": ""
+    },
+    {
+     "nr": 5,
+     "adancime": 5.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă grasă"
+    },
+    {
+     "nr": 7,
+     "adancime": 7.0,
+     "tip": "probă tulburată",
+     "observatii": "Argilă grasă"
+    }
+   ],
+   "lab": [
+    {
+     "proba": "P1",
+     "adancime": 1.0,
+     "buletin": "8008",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 41.0,
+     "P": 47.0,
+     "N": 12.0,
+     "Pi": 0.0,
+     "w": 14.6,
+     "wL": 57.4,
+     "wP": 16.5,
+     "IP": 41.0,
+     "IC": 1.0448977187479467,
+     "IA": 0.9755741971250683,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P2",
+     "adancime": 2.0,
+     "buletin": "8009",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă cu rar pietriș",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu cu mari concr.calc.",
+     "A": 29.0,
+     "P": 45.0,
+     "N": 15.0,
+     "Pi": 11.0,
+     "w": 15.1,
+     "wL": 63.9,
+     "wP": 16.0,
+     "IP": 48.0,
+     "IC": 1.0188488387326773,
+     "IA": 1.6525255410273485,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P3",
+     "adancime": 3.0,
+     "buletin": "8010",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă prăfoasă cu rar pietriș",
+     "den_buletin": "Argila prafoasa / Silty clay (Si.Cl)",
+     "culoare": "cafeniu",
+     "A": 34.0,
+     "P": 56.0,
+     "N": 9.0,
+     "Pi": 1.0,
+     "w": 23.1,
+     "wL": 43.8,
+     "wP": 15.1,
+     "IP": 29.0,
+     "IC": 0.7216096807745749,
+     "IA": 0.8432567067316228,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P4",
+     "adancime": 4.0,
+     "buletin": "8013",
+     "data_primire": "05.10.2026",
+     "denumire": null,
+     "den_buletin": "- fara clasificare",
+     "culoare": "-",
+     "A": 0.0,
+     "P": 0.0,
+     "N": 0.0,
+     "Pi": 0.0,
+     "w": null,
+     "wL": null,
+     "wP": null,
+     "IP": null,
+     "IC": null,
+     "IA": null,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": 27.609567180707906,
+     "c": 13.833333333333314,
+     "netulburata": true
+    },
+    {
+     "proba": "P5",
+     "adancime": 5.0,
+     "buletin": "8011",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 75.0,
+     "P": 22.0,
+     "N": 3.0,
+     "Pi": 0.0,
+     "w": 31.0,
+     "wL": 87.1,
+     "wP": 20.2,
+     "IP": 67.0,
+     "IC": 0.8395762360360163,
+     "IA": 0.891890487591824,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    },
+    {
+     "proba": "P7",
+     "adancime": 7.0,
+     "buletin": "8012",
+     "data_primire": "05.10.2026",
+     "denumire": "Argilă grasă",
+     "den_buletin": "Argila / Clay (Cl)",
+     "culoare": "cafenie",
+     "A": 64.0,
+     "P": 35.0,
+     "N": 1.0,
+     "Pi": 0.0,
+     "w": 24.1,
+     "wL": 76.3,
+     "wP": 19.6,
+     "IP": 56.0,
+     "IC": 0.9213274000671908,
+     "IA": 0.8716696875147417,
+     "gama": null,
+     "gama_d": null,
+     "e": null,
+     "n": null,
+     "Sr": null,
+     "M23": null,
+     "M23_sat": null,
+     "im3": null,
+     "phi": null,
+     "c": null,
+     "netulburata": false
+    }
+   ],
+   "fisa_foto": {
+    "src": "photos/F8/fisa1.jpg",
+    "thumb": "photos/F8/t_fisa1.jpg",
+    "original": "f8.jpeg",
+    "w": 1600,
+    "h": 1200
+   },
+   "fise_foto": [
+    {
+     "src": "photos/F8/fisa1.jpg",
+     "thumb": "photos/F8/t_fisa1.jpg",
+     "original": "f8.jpeg",
+     "w": 1600,
+     "h": 1200
+    }
+   ],
+   "poze": [
+    {
+     "src": "photos/F8/01.jpg",
+     "thumb": "photos/F8/t_01.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.27.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/02.jpg",
+     "thumb": "photos/F8/t_02.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.271.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/03.jpg",
+     "thumb": "photos/F8/t_03.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.272.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/04.jpg",
+     "thumb": "photos/F8/t_04.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.273.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/05.jpg",
+     "thumb": "photos/F8/t_05.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.274.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/06.jpg",
+     "thumb": "photos/F8/t_06.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.275.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    },
+    {
+     "src": "photos/F8/07.jpg",
+     "thumb": "photos/F8/t_07.jpg",
+     "original": "WhatsApp Image 2026-09-30 at 21.44.28.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "timestamp": "2026-09-30 21:44"
+    }
+   ]
+  }
+ ],
+ "puncte_proiectate": [
+  {
+   "id": "F1",
+   "lat": 44.62856,
+   "lon": 26.102284,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Clădire funcțiuni conexe P+2E (Etapa XI)",
+   "adancime": "10 m",
+   "stereo70": {
+    "N": 348241.31,
+    "E": 587580.7
+   },
+   "cota": 92.34
+  },
+  {
+   "id": "F2",
+   "lat": 44.62836,
+   "lon": 26.101554,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 1 – rând vest, capăt nord (Etapa I)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348218.29,
+    "E": 587523.13
+   },
+   "cota": 93.57
+  },
+  {
+   "id": "F3",
+   "lat": 44.628318,
+   "lon": 26.102503,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 1 – rând est, capăt nord (Etapa VIII)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348214.64,
+    "E": 587598.46
+   },
+   "cota": 94.61
+  },
+  {
+   "id": "F4",
+   "lat": 44.627836,
+   "lon": 26.102071,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 1 – rând vest, zona centrală (Etapa III)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348160.57,
+    "E": 587564.95
+   },
+   "cota": 95.18
+  },
+  {
+   "id": "F5",
+   "lat": 44.627963,
+   "lon": 26.102748,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 1 – rând est, zona centrală (Etapa IX)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348175.44,
+    "E": 587618.43
+   },
+   "cota": 94.47
+  },
+  {
+   "id": "F6",
+   "lat": 44.627481,
+   "lon": 26.102316,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 2 – rând vest, zona sud (Etapa IV)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348121.36,
+    "E": 587584.9
+   },
+   "cota": 92.32
+  },
+  {
+   "id": "F7",
+   "lat": 44.627432,
+   "lon": 26.103121,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 4' – rând est, capăt sud, spre lac (Etapa V)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348116.84,
+    "E": 587648.82
+   },
+   "cota": 88.28
+  },
+  {
+   "id": "F8",
+   "lat": 44.627127,
+   "lon": 26.102566,
+   "tip": "Foraj geotehnic propus",
+   "obs": "Locuință cuplată TIP 4' – rând vest, capăt sud, spre lac (Etapa V)",
+   "adancime": "8 m",
+   "stereo70": {
+    "N": 348082.38,
+    "E": 587605.27
+   },
+   "cota": 87.25
+  }
+ ],
+ "limita": [
+  [
+   44.6286446,
+   26.1026709
+  ],
+  [
+   44.6273313,
+   26.1035227
+  ],
+  [
+   44.6271138,
+   26.1031326
+  ],
+  [
+   44.6268882,
+   26.1027136
+  ],
+  [
+   44.6267961,
+   26.1025585
+  ],
+  [
+   44.6284549,
+   26.1013196
+  ],
+  [
+   44.6285252,
+   26.1016248
+  ],
+  [
+   44.6285978,
+   26.1019448
+  ],
+  [
+   44.6287811,
+   26.1025772
+  ],
+  [
+   44.6286446,
+   26.1026709
+  ]
+ ],
+ "lac": [
+  [
+   44.6268041,
+   26.1025515
+  ],
+  [
+   44.6268412,
+   26.1026318
+  ],
+  [
+   44.6268596,
+   26.102688
+  ],
+  [
+   44.6268824,
+   26.1027559
+  ],
+  [
+   44.6270017,
+   26.1029565
+  ],
+  [
+   44.6270499,
+   26.1030921
+  ],
+  [
+   44.6271004,
+   26.1031963
+  ],
+  [
+   44.627195,
+   26.103367
+  ],
+  [
+   44.6272176,
+   26.1033913
+  ],
+  [
+   44.6272474,
+   26.1034504
+  ],
+  [
+   44.6272665,
+   26.1034878
+  ],
+  [
+   44.627295,
+   26.1035367
+  ]
+ ],
+ "cladiri": [
+  {
+   "nume": "Clădire funcțiuni conexe P+2E",
+   "tip": "conexe",
+   "contur": [
+    [
+     44.6286607,
+     26.1023802
+    ],
+    [
+     44.6285614,
+     26.1024541
+    ],
+    [
+     44.6284601,
+     26.1021869
+    ],
+    [
+     44.6285595,
+     26.1021131
+    ],
+    [
+     44.6286607,
+     26.1023802
+    ]
+   ]
+  },
+  {
+   "nume": "L01 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6285203,
+     26.1018636
+    ],
+    [
+     44.6284525,
+     26.1016854
+    ],
+    [
+     44.6283228,
+     26.1017821
+    ],
+    [
+     44.6283905,
+     26.1019603
+    ],
+    [
+     44.6285203,
+     26.1018636
+    ]
+   ]
+  },
+  {
+   "nume": "L02 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6284593,
+     26.1015944
+    ],
+    [
+     44.6283914,
+     26.1014166
+    ],
+    [
+     44.6282613,
+     26.1015141
+    ],
+    [
+     44.6283293,
+     26.1016919
+    ],
+    [
+     44.6284593,
+     26.1015944
+    ]
+   ]
+  },
+  {
+   "nume": "L03 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6284153,
+     26.1025509
+    ],
+    [
+     44.6283506,
+     26.102366
+    ],
+    [
+     44.6282212,
+     26.1024547
+    ],
+    [
+     44.6282858,
+     26.1026397
+    ],
+    [
+     44.6284153,
+     26.1025509
+    ]
+   ]
+  },
+  {
+   "nume": "L04 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6282882,
+     26.1018746
+    ],
+    [
+     44.6282231,
+     26.1016893
+    ],
+    [
+     44.628094,
+     26.1017782
+    ],
+    [
+     44.628159,
+     26.1019635
+    ],
+    [
+     44.6282882,
+     26.1018746
+    ]
+   ]
+  },
+  {
+   "nume": "L05 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6282376,
+     26.1026733
+    ],
+    [
+     44.6281727,
+     26.1024883
+    ],
+    [
+     44.6280433,
+     26.1025773
+    ],
+    [
+     44.6281083,
+     26.1027623
+    ],
+    [
+     44.6282376,
+     26.1026733
+    ]
+   ]
+  },
+  {
+   "nume": "L06 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6281697,
+     26.1024521
+    ],
+    [
+     44.6281051,
+     26.1022671
+    ],
+    [
+     44.6279756,
+     26.1023559
+    ],
+    [
+     44.6280403,
+     26.1025408
+    ],
+    [
+     44.6281697,
+     26.1024521
+    ]
+   ]
+  },
+  {
+   "nume": "L07 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6281105,
+     26.101997
+    ],
+    [
+     44.6280458,
+     26.1018118
+    ],
+    [
+     44.6279164,
+     26.1019006
+    ],
+    [
+     44.6279811,
+     26.1020857
+    ],
+    [
+     44.6281105,
+     26.101997
+    ]
+   ]
+  },
+  {
+   "nume": "L08 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6280601,
+     26.1027956
+    ],
+    [
+     44.627995,
+     26.1026107
+    ],
+    [
+     44.6278658,
+     26.1026999
+    ],
+    [
+     44.6279309,
+     26.1028848
+    ],
+    [
+     44.6280601,
+     26.1027956
+    ]
+   ]
+  },
+  {
+   "nume": "L09 – TIP 3",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6279923,
+     26.1025743
+    ],
+    [
+     44.6279272,
+     26.102389
+    ],
+    [
+     44.6277979,
+     26.1024781
+    ],
+    [
+     44.627863,
+     26.1026634
+    ],
+    [
+     44.6279923,
+     26.1025743
+    ]
+   ]
+  },
+  {
+   "nume": "L10 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6279328,
+     26.1021192
+    ],
+    [
+     44.6278679,
+     26.1019343
+    ],
+    [
+     44.6277388,
+     26.1020232
+    ],
+    [
+     44.6278037,
+     26.1022081
+    ],
+    [
+     44.6279328,
+     26.1021192
+    ]
+   ]
+  },
+  {
+   "nume": "L11 – TIP 2",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6278822,
+     26.1029177
+    ],
+    [
+     44.6278171,
+     26.1027329
+    ],
+    [
+     44.6276881,
+     26.1028221
+    ],
+    [
+     44.6277532,
+     26.1030069
+    ],
+    [
+     44.6278822,
+     26.1029177
+    ]
+   ]
+  },
+  {
+   "nume": "L12 – TIP 3",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6278144,
+     26.1026966
+    ],
+    [
+     44.6277497,
+     26.1025116
+    ],
+    [
+     44.6276203,
+     26.1026003
+    ],
+    [
+     44.6276849,
+     26.1027853
+    ],
+    [
+     44.6278144,
+     26.1026966
+    ]
+   ]
+  },
+  {
+   "nume": "L13 – TIP 1",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6277552,
+     26.1022417
+    ],
+    [
+     44.6276901,
+     26.1020563
+    ],
+    [
+     44.6275608,
+     26.1021453
+    ],
+    [
+     44.627626,
+     26.1023308
+    ],
+    [
+     44.6277552,
+     26.1022417
+    ]
+   ]
+  },
+  {
+   "nume": "L14 – TIP 2",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6277047,
+     26.1030403
+    ],
+    [
+     44.6276396,
+     26.1028555
+    ],
+    [
+     44.6275103,
+     26.1029449
+    ],
+    [
+     44.6275754,
+     26.1031296
+    ],
+    [
+     44.6277047,
+     26.1030403
+    ]
+   ]
+  },
+  {
+   "nume": "L15 – TIP 3",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6276368,
+     26.1028192
+    ],
+    [
+     44.6275719,
+     26.1026342
+    ],
+    [
+     44.6274425,
+     26.1027232
+    ],
+    [
+     44.6275075,
+     26.1029083
+    ],
+    [
+     44.6276368,
+     26.1028192
+    ]
+   ]
+  },
+  {
+   "nume": "L16 – TIP 2",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6275776,
+     26.102364
+    ],
+    [
+     44.6275129,
+     26.102179
+    ],
+    [
+     44.6273834,
+     26.1022677
+    ],
+    [
+     44.6274481,
+     26.1024527
+    ],
+    [
+     44.6275776,
+     26.102364
+    ]
+   ]
+  },
+  {
+   "nume": "L17 – TIP 4'",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6275311,
+     26.1031742
+    ],
+    [
+     44.6274622,
+     26.102978
+    ],
+    [
+     44.6273329,
+     26.103067
+    ],
+    [
+     44.6274017,
+     26.1032632
+    ],
+    [
+     44.6275311,
+     26.1031742
+    ]
+   ]
+  },
+  {
+   "nume": "L18 – TIP 4",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.627459,
+     26.1029411
+    ],
+    [
+     44.627394,
+     26.1027563
+    ],
+    [
+     44.6272648,
+     26.1028454
+    ],
+    [
+     44.6273297,
+     26.1030302
+    ],
+    [
+     44.627459,
+     26.1029411
+    ]
+   ]
+  },
+  {
+   "nume": "L19 – TIP 2",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6273999,
+     26.1024862
+    ],
+    [
+     44.6273349,
+     26.1023012
+    ],
+    [
+     44.6272056,
+     26.1023903
+    ],
+    [
+     44.6272706,
+     26.1025753
+    ],
+    [
+     44.6273999,
+     26.1024862
+    ]
+   ]
+  },
+  {
+   "nume": "L20 – TIP 4'",
+   "tip": "locuinta",
+   "contur": [
+    [
+     44.6272263,
+     26.1026195
+    ],
+    [
+     44.6271573,
+     26.1024231
+    ],
+    [
+     44.6270281,
+     26.1025122
+    ],
+    [
+     44.6270971,
+     26.1027085
+    ],
+    [
+     44.6272263,
+     26.1026195
+    ]
+   ]
+  }
+ ],
+ "etape": [
+  {
+   "nume": "ETAPA I",
+   "contur": [
+    [
+     44.628568,
+     26.1018633
+    ],
+    [
+     44.628372,
+     26.1020094
+    ],
+    [
+     44.6281978,
+     26.1015128
+    ],
+    [
+     44.6284443,
+     26.1013273
+    ],
+    [
+     44.628568,
+     26.1018633
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA II",
+   "contur": [
+    [
+     44.628372,
+     26.1020094
+    ],
+    [
+     44.6283478,
+     26.1020275
+    ],
+    [
+     44.6282083,
+     26.1019993
+    ],
+    [
+     44.6279811,
+     26.1021557
+    ],
+    [
+     44.6278472,
+     26.101774
+    ],
+    [
+     44.6281978,
+     26.1015128
+    ],
+    [
+     44.628372,
+     26.1020094
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA III",
+   "contur": [
+    [
+     44.6279811,
+     26.1021557
+    ],
+    [
+     44.6276258,
+     26.1024004
+    ],
+    [
+     44.6274977,
+     26.1020354
+    ],
+    [
+     44.6278472,
+     26.101774
+    ],
+    [
+     44.6279811,
+     26.1021557
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA IV",
+   "contur": [
+    [
+     44.6276258,
+     26.1024004
+    ],
+    [
+     44.6272704,
+     26.1026451
+    ],
+    [
+     44.6271481,
+     26.1022964
+    ],
+    [
+     44.6274977,
+     26.1020354
+    ],
+    [
+     44.6276258,
+     26.1024004
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA V",
+   "contur": [
+    [
+     44.6271481,
+     26.1022964
+    ],
+    [
+     44.6269336,
+     26.1024566
+    ],
+    [
+     44.6270819,
+     26.1027195
+    ],
+    [
+     44.6271868,
+     26.1029131
+    ],
+    [
+     44.6273869,
+     26.1032735
+    ],
+    [
+     44.6274423,
+     26.1032914
+    ],
+    [
+     44.6275754,
+     26.1031997
+    ],
+    [
+     44.6273946,
+     26.1026856
+    ],
+    [
+     44.627306,
+     26.1027466
+    ],
+    [
+     44.6271481,
+     26.1022964
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA VI",
+   "contur": [
+    [
+     44.6278404,
+     26.102698
+    ],
+    [
+     44.6274851,
+     26.1029428
+    ],
+    [
+     44.6273946,
+     26.1026856
+    ],
+    [
+     44.6277501,
+     26.102441
+    ],
+    [
+     44.6278404,
+     26.102698
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA VII",
+   "contur": [
+    [
+     44.6277501,
+     26.102441
+    ],
+    [
+     44.6281054,
+     26.1021965
+    ],
+    [
+     44.6281956,
+     26.102453
+    ],
+    [
+     44.6278404,
+     26.102698
+    ],
+    [
+     44.6277501,
+     26.102441
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA VIII",
+   "contur": [
+    [
+     44.6281054,
+     26.1021965
+    ],
+    [
+     44.6282428,
+     26.1021019
+    ],
+    [
+     44.6283035,
+     26.102132
+    ],
+    [
+     44.6284442,
+     26.1025307
+    ],
+    [
+     44.6284232,
+     26.1026152
+    ],
+    [
+     44.6282859,
+     26.1027098
+    ],
+    [
+     44.6281054,
+     26.1021965
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA IX",
+   "contur": [
+    [
+     44.6282859,
+     26.1027098
+    ],
+    [
+     44.6279306,
+     26.1029548
+    ],
+    [
+     44.6278404,
+     26.102698
+    ],
+    [
+     44.6282859,
+     26.1027098
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA X",
+   "contur": [
+    [
+     44.6278404,
+     26.102698
+    ],
+    [
+     44.6279306,
+     26.1029547
+    ],
+    [
+     44.6275754,
+     26.1031997
+    ],
+    [
+     44.6274851,
+     26.1029428
+    ],
+    [
+     44.6278404,
+     26.102698
+    ]
+   ]
+  },
+  {
+   "nume": "ETAPA XI",
+   "contur": [
+    [
+     44.6283771,
+     26.1020847
+    ],
+    [
+     44.6285164,
+     26.1024809
+    ],
+    [
+     44.6285696,
+     26.102513
+    ],
+    [
+     44.6286846,
+     26.1024354
+    ],
+    [
+     44.6287037,
+     26.1023798
+    ],
+    [
+     44.6286102,
+     26.1020528
+    ],
+    [
+     44.628583,
+     26.101931
+    ],
+    [
+     44.6283771,
+     26.1020847
+    ]
+   ]
+  }
+ ],
+ "meteo": {
+  "2026-09-10": {
+   "weather_code": 2,
+   "temperature_2m_max": 30.1,
+   "temperature_2m_min": 14.7,
+   "temperature_2m_mean": 22.1,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 11.6,
+   "wind_gusts_10m_max": 23.4,
+   "wind_direction_10m_dominant": 81,
+   "relative_humidity_2m_mean": 60,
+   "sunshine_duration": 43877.24
+  },
+  "2026-09-11": {
+   "weather_code": 3,
+   "temperature_2m_max": 31.0,
+   "temperature_2m_min": 16.7,
+   "temperature_2m_mean": 23.4,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 14.3,
+   "wind_gusts_10m_max": 33.1,
+   "wind_direction_10m_dominant": 75,
+   "relative_humidity_2m_mean": 61,
+   "sunshine_duration": 43609.14
+  },
+  "2026-09-12": {
+   "weather_code": 63,
+   "temperature_2m_max": 26.1,
+   "temperature_2m_min": 16.7,
+   "temperature_2m_mean": 21.1,
+   "precipitation_sum": 3.5,
+   "wind_speed_10m_max": 11.0,
+   "wind_gusts_10m_max": 24.1,
+   "wind_direction_10m_dominant": 32,
+   "relative_humidity_2m_mean": 77,
+   "sunshine_duration": 43200.0
+  },
+  "2026-09-13": {
+   "weather_code": 55,
+   "temperature_2m_max": 20.3,
+   "temperature_2m_min": 15.0,
+   "temperature_2m_mean": 17.1,
+   "precipitation_sum": 6.3,
+   "wind_speed_10m_max": 11.6,
+   "wind_gusts_10m_max": 24.1,
+   "wind_direction_10m_dominant": 115,
+   "relative_humidity_2m_mean": 87,
+   "sunshine_duration": 22126.82
+  },
+  "2026-09-14": {
+   "weather_code": 51,
+   "temperature_2m_max": 22.5,
+   "temperature_2m_min": 12.0,
+   "temperature_2m_mean": 16.9,
+   "precipitation_sum": 0.4,
+   "wind_speed_10m_max": 7.3,
+   "wind_gusts_10m_max": 21.2,
+   "wind_direction_10m_dominant": 227,
+   "relative_humidity_2m_mean": 77,
+   "sunshine_duration": 40000.54
+  },
+  "2026-09-15": {
+   "weather_code": 51,
+   "temperature_2m_max": 24.9,
+   "temperature_2m_min": 11.7,
+   "temperature_2m_mean": 18.1,
+   "precipitation_sum": 0.1,
+   "wind_speed_10m_max": 8.3,
+   "wind_gusts_10m_max": 20.9,
+   "wind_direction_10m_dominant": 274,
+   "relative_humidity_2m_mean": 65,
+   "sunshine_duration": 43200.0
+  },
+  "_meta": {
+   "sursa": "Open-Meteo (ERA5 / archive API)",
+   "lat": 44.674866,
+   "lon": 26.070879,
+   "elevatie_m": 94.0
+  }
+ }
+}
