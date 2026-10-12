@@ -11,8 +11,9 @@ apa (infiltrații), cota terenului din ridicarea topografică, GPS + Stereo 70, 
 (w, w<sub>P</sub>–w<sub>L</sub>, I<sub>C</sub>), tabelul rezultatelor de laborator, poziția în diagrama Casagrande,
 meteo în ziua execuției, mini-hartă.
 
-Fotografii aeriene: 24 de cadre din zborul cu drona din 12.09.2026 (DJI FC8582) + 9 fotografii de recunoaștere geoetichetate,
-galerie cu lightbox, traseul zborului și pozițiile pe hartă, înălțimea aproximativă față de teren.
+Fotografii aeriene: 24 de cadre din zborul cu drona din 12.09.2026 (DJI FC8582) + 9 fotografii de recunoaștere geoetichetate
+și 8 panorame lipite din cadrele făcute din același punct; galerie cu lightbox, traseul zborului și pozițiile pe hartă,
+înălțimea aproximativă față de teren. Prelucrare cu LightCraft (ArtCraft, open source, Rust): `scripts/lightcraft_drona.sh`.
 
 Plus: intro 3D (bloc de teren din ridicarea topografică, clădirile propuse, forajele „extrase” în ordinea execuției),
 hartă cu limita proprietății, marginea lacului și clădirile propuse, stadiu, calendar, centralizatoare + CSV.
@@ -56,7 +57,8 @@ Pozele din dronă (album Google Foto „Balotesti str. Lacului 2026”, descărc
 python3 scripts/build_drona.py --src "../3. Poze/drona" --terrain terrain.json --out .
 ```
 
-Necesită `openpyxl` și `Pillow`. Pozele deja procesate sunt sărite.
+Necesită `openpyxl` și `Pillow`. Pozele deja procesate sunt sărite (deci versiunile LightCraft din `photos/drona`,
+`photos/teren`, `photos/panorame` nu sunt suprascrise de `build_drona.py`, care doar recitește pozițiile).
 
 ## Observații asupra datelor (JURNAL.md, 12.10.2026)
 

@@ -464,5 +464,142 @@
    "h_teren": null,
    "aparat": "motorola edge 70 fusion"
   }
- ]
+ ],
+ "panorame": [
+  {
+   "src": "photos/panorame/p1.jpg",
+   "thumb": "photos/panorame/t_p1.jpg",
+   "w": 2288,
+   "h": 1144,
+   "titlu": "Spre lac, dinspre nord",
+   "cadre": [
+    2,
+    3,
+    4
+   ],
+   "data": "2026-09-12",
+   "ora": "09:35:16",
+   "h_teren": 21,
+   "lat": 44.628234866666666,
+   "lon": 26.102019933333334
+  },
+  {
+   "src": "photos/panorame/p2.jpg",
+   "thumb": "photos/panorame/t_p2.jpg",
+   "w": 2084,
+   "h": 1260,
+   "titlu": "Drumul de acces spre lac",
+   "cadre": [
+    5,
+    6,
+    7
+   ],
+   "data": "2026-09-12",
+   "ora": "09:36:12",
+   "h_teren": 29,
+   "lat": 44.627729666666674,
+   "lon": 26.102517700000003
+  },
+  {
+   "src": "photos/panorame/p3.jpg",
+   "thumb": "photos/panorame/t_p3.jpg",
+   "w": 2400,
+   "h": 1773,
+   "titlu": "Incinta spre strada (nord)",
+   "cadre": [
+    9,
+    10
+   ],
+   "data": "2026-09-12",
+   "ora": "09:36:57",
+   "h_teren": 33,
+   "lat": 44.62714875,
+   "lon": 26.10286215
+  },
+  {
+   "src": "photos/panorame/p4.jpg",
+   "thumb": "photos/panorame/t_p4.jpg",
+   "w": 2296,
+   "h": 1024,
+   "titlu": "Incinta văzută de deasupra lacului",
+   "cadre": [
+    11,
+    12,
+    13
+   ],
+   "data": "2026-09-12",
+   "ora": "09:37:17",
+   "h_teren": 29,
+   "lat": 44.626762533333334,
+   "lon": 26.1030742
+  },
+  {
+   "src": "photos/panorame/p5.jpg",
+   "thumb": "photos/panorame/t_p5.jpg",
+   "w": 2400,
+   "h": 1750,
+   "titlu": "Incinta văzută dinspre lac",
+   "cadre": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "data": "2026-09-12",
+   "ora": "09:37:33",
+   "h_teren": 30,
+   "lat": 44.626680300000004,
+   "lon": 26.1031356
+  },
+  {
+   "src": "photos/panorame/p6.jpg",
+   "thumb": "photos/panorame/t_p6.jpg",
+   "w": 2400,
+   "h": 1695,
+   "titlu": "Partea de nord a incintei",
+   "cadre": [
+    18,
+    19
+   ],
+   "data": "2026-09-12",
+   "ora": "09:38:10",
+   "h_teren": 28,
+   "lat": 44.6273195,
+   "lon": 26.1026673
+  },
+  {
+   "src": "photos/panorame/p7.jpg",
+   "thumb": "photos/panorame/t_p7.jpg",
+   "w": 1705,
+   "h": 2400,
+   "titlu": "Incinta – vedere aproape verticală",
+   "cadre": [
+    20,
+    21,
+    22
+   ],
+   "data": "2026-09-12",
+   "ora": "09:38:30",
+   "h_teren": 51,
+   "lat": 44.62746893333334,
+   "lon": 26.102586000000002
+  },
+  {
+   "src": "photos/panorame/p8.jpg",
+   "thumb": "photos/panorame/t_p8.jpg",
+   "w": 2400,
+   "h": 1071,
+   "titlu": "Zona centrală – vedere verticală",
+   "cadre": [
+    23,
+    24
+   ],
+   "data": "2026-09-12",
+   "ora": "09:38:58",
+   "h_teren": 70,
+   "lat": 44.62760445,
+   "lon": 26.102571949999998
+  }
+ ],
+ "prelucrare": "LightCraft 0.6 (ArtCraft, open source): dehaze +18, lumini −35, umbre +30, albe +8, negre −6, claritate +12, textură +10, vibrance +14 (teren: setări mai blânde); panorame lipite automat (Photo Merge, proiecție auto) din cadrele făcute din același punct, decupate la dreptunghiul util."
 }
