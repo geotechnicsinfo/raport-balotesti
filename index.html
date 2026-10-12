@@ -276,6 +276,22 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
 .amp{font-size:12.5px;color:var(--ink-3);margin-top:2px}
 .card .m2{font-size:12px;color:var(--ink-3);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .day.nodate{border-style:dashed}
+/* ---------- dronă ---------- */
+.dr-hero{position:relative;border-radius:var(--r);overflow:hidden;background:#0A2F4F;aspect-ratio:21/8;cursor:zoom-in;margin-bottom:14px}
+.dr-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.dr-hero .cap{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 14px;background:linear-gradient(transparent,rgba(10,47,79,.82));color:#fff;display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+.dr-hero .cap b{font-family:var(--cond);font-size:26px;font-weight:600;line-height:1}
+.dr-hero .cap span{font-family:var(--mono);font-size:12px;opacity:.9}
+@media(max-width:700px){.dr-hero{aspect-ratio:16/9}.dr-hero .cap b{font-size:20px}}
+.masonry{columns:3 300px;column-gap:10px}
+.masonry a{display:block;break-inside:avoid;margin:0 0 10px;position:relative;border-radius:4px;overflow:hidden;border:1px solid var(--line);background:var(--bg-2)}
+.masonry a img{width:100%;display:block;transition:transform .25s}
+.masonry a:hover img{transform:scale(1.025)}
+.masonry a .cap{position:absolute;left:0;right:0;bottom:0;padding:18px 9px 6px;background:linear-gradient(transparent,rgba(0,0,0,.62));color:#fff;font-family:var(--mono);font-size:11px;display:flex;justify-content:space-between;gap:6px}
+.masonry a .n{position:absolute;left:7px;top:7px;background:rgba(10,47,79,.85);color:#fff;font-family:var(--cond);font-weight:600;font-size:12px;padding:1px 6px;border-radius:3px}
+.masonry a.tr .n{background:rgba(46,139,87,.9)}
+.lb .cap a{color:#FDEBD3;margin-left:10px}
+
 .cols.wide{grid-template-columns:600px minmax(0,1fr)}
 @media(max-width:1100px){.cols.wide{grid-template-columns:1fr}}
 .meta{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
@@ -292,6 +308,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
     <nav class="nav">
       <a href="#/" data-nav="/">Sinteză</a>
       <a href="#/harta" data-nav="/harta">Hartă</a>
+      <a href="#/drona" data-nav="/drona">Dronă</a>
       <a href="#/foraje" data-nav="/foraje">Foraje</a>
       <a href="#/laborator" data-nav="/laborator">Laborator</a>
       <a href="#/zile" data-nav="/zile">Calendar</a>
@@ -318,7 +335,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
     <section class="block" id="harta">
       <div class="wrap">
         <div class="sec-h"><h2>Amplasarea investigațiilor</h2><span class="n">WGS84 · GPS teren · clădiri propuse conform planului de situație</span>
-          <div class="right"><button class="btn" id="btn-sat">Satelit</button><button class="btn" id="btn-fit">Încadrează</button></div></div>
+          <div class="right"><button class="btn" id="btn-dr">Poziții dronă: ascunse</button><button class="btn" id="btn-sat">Satelit</button><button class="btn" id="btn-fit">Încadrează</button></div></div>
         <div id="map"></div>
         <div class="legend">
           <span><i style="background:var(--blue)"></i>Foraj geotehnic executat</span>
@@ -326,7 +343,17 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
           <span><i style="background:transparent;border:2px solid #F28C00;border-radius:1px;width:14px;height:10px;box-shadow:none"></i>Limita proprietății (NC 66359)</span>
           <span><i style="background:rgba(10,47,79,.18);border:1.5px solid var(--navy);border-radius:1px;width:14px;height:10px;box-shadow:none"></i>Clădiri propuse (locuințe cuplate / funcțiuni conexe)</span>
           <span><i style="background:transparent;border:0;border-top:3px solid var(--water);border-radius:0;width:16px;height:0;box-shadow:none"></i>Margine lac</span>
+          <span><i style="background:#F28C00;border-radius:2px;width:10px;height:10px"></i>Fotografie aeriană (dronă, 12.09.2026)</span>
+          <span><i style="background:#2E8B57;border-radius:2px;width:10px;height:10px"></i>Fotografie de recunoaștere (teren)</span>
         </div>
+      </div>
+    </section>
+
+    <section class="block" id="drona">
+      <div class="wrap">
+        <div class="sec-h"><h2>Fotografii aeriene și de recunoaștere</h2><span class="n" id="dr-cnt"></span>
+          <div class="right"><div class="chips" id="dr-chips"><button class="chip on" data-f="aerian">Dronă</button><button class="chip" data-f="teren">Recunoaștere teren</button></div></div></div>
+        <div id="dr-body"></div>
       </div>
     </section>
 
@@ -392,6 +419,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
   <span>Fundal hartă: © OpenStreetMap contributors · Imagini satelit: Esri World Imagery</span>
   <span>Meteo: Open-Meteo (reanaliză ERA5), punct de grilă cel mai apropiat</span>
   <span>Laborator: buletine BBCGEOTECHNIC · denumire după diagrama ternară NP 074/2022</span>
+  <span>Fotografii aeriene: DJI (FC8582), 12.09.2026 · înălțimea față de teren este aproximativă (GPS dronă − cota topografică)</span>
   <span id="f-gen"></span>
 </div></footer>
 
@@ -411,7 +439,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px}
    Aplicație de raportare – investigații de teren Balotești, str. Lacului
    Date: data.json (scripts/build_data.py)
    ============================================================ */
-let D = null, INV = [], LAB = [], map = null, markers = {}, satOn = false, baseOSM, baseSat;
+let D = null, INV = [], LAB = [], DR = {aerian:[], teren:[]}, map = null, markers = {}, satOn = false, baseOSM, baseSat, drLayer = null, drOn = false, drFilt = 'aerian';
 
 const fmtDate = s => { if(!s) return '—'; const [y,m,d]=s.split('-'); return `${d}.${m}.${y}`; };
 const ZILE = ['duminică','luni','marți','miercuri','joi','vineri','sâmbătă'];
@@ -482,6 +510,36 @@ function wxPanel(date){
 
 function dist(a,b,c,d){ if([a,b,c,d].some(v=>v==null)) return null; const R=6371000,t=Math.PI/180; const dl=(c-a)*t, dn=(d-b)*t; const h=Math.sin(dl/2)**2+Math.cos(a*t)*Math.cos(c*t)*Math.sin(dn/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
 const nearFor = (i,r=60) => INV.filter(x=>x!==i).map(x=>({i:x,d:dist(i.lat,i.lon,x.lat,x.lon)})).filter(x=>x.d!=null&&x.d<=r).sort((a,b)=>a.d-b.d);
+
+/* ============================ DRONĂ ============================ */
+const drCap = (p,k,kind) => `${kind==='aerian'?'Dronă':'Recunoaștere'} ${k+1} · ${fmtDate(p.data)} ${p.ora?p.ora.slice(0,5):''}${p.h_teren!=null?` · h ≈ ${p.h_teren} m față de teren`:''}`;
+function drImgs(kind){ return DR[kind].map((p,k)=>({src:p.src,cap:drCap(p,k,kind),lat:p.lat,lon:p.lon})); }
+function renderDrona(){
+  const A = DR.aerian, Tt = DR.teren, el = document.getElementById('dr-body'); if(!el) return;
+  document.getElementById('dr-cnt').textContent = A.length||Tt.length ? `${A.length} fotografii aeriene · ${Tt.length} de recunoaștere · ${fmtDate((A[0]||Tt[0]).data)}` : '';
+  const list = DR[drFilt]; if(!list.length){ el.innerHTML = '<p class="probe-empty">Nu există fotografii.</p>'; return; }
+  const hero = drFilt==='aerian' ? (A[1]||A[0]) : null, hk = hero ? A.indexOf(hero) : -1;
+  const hs = A.map(p=>p.h_teren).filter(v=>v!=null);
+  el.innerHTML = (hero ? `<div class="dr-hero" data-k="${hk}"><img src="${hero.src}" alt="Vedere aeriană a amplasamentului dinspre nord, spre lac"><div class="cap"><b>Amplasamentul văzut din dronă</b><span>${fmtDateL(hero.data)} · ${A[0].ora.slice(0,5)}–${A[A.length-1].ora.slice(0,5)} · ${A.length} cadre · înălțimi ≈ ${Math.min(...hs.filter(v=>v>10))}–${Math.max(...hs)} m față de teren</span></div></div>` : `<p style="margin:0 0 12px;color:var(--ink-2);font-size:13.5px">Fotografii geoetichetate făcute pe teren în ziua zborului (${fmtDate(Tt[0].data)}, ${Tt[0].ora.slice(0,5)}–${Tt[Tt.length-1].ora.slice(0,5)}), pe drumul de acces din incintă spre lac.</p>`)
+    + `<div class="masonry">${list.map((p,k)=>`<a href="${p.src}" data-k="${k}" class="${drFilt==='teren'?'tr':''}"><img loading="lazy" src="${p.thumb}" alt="${esc(drCap(p,k,drFilt))}" width="${p.w}" height="${p.h}" style="height:auto"><span class="n">${k+1}</span><span class="cap"><span>${p.ora?p.ora.slice(0,5):''}</span><span>${p.h_teren!=null?'h ≈ '+p.h_teren+' m':''}</span></span></a>`).join('')}</div>`;
+  const imgs = drImgs(drFilt);
+  el.querySelectorAll('.masonry a').forEach(a => a.onclick = e => { e.preventDefault(); openLB(imgs, +a.dataset.k); });
+  const h = el.querySelector('.dr-hero'); if (h) h.onclick = () => openLB(drImgs('aerian'), +h.dataset.k);
+}
+function addDroneLayer(){
+  if (!map || drLayer || !(DR.aerian.length||DR.teren.length)) return;
+  drLayer = L.layerGroup();
+  const path = DR.aerian.filter(p=>p.lat!=null).map(p=>[p.lat,p.lon]);
+  if (path.length>1) L.polyline(path,{color:'#F28C00',weight:1.5,dashArray:'4 4',opacity:.8}).addTo(drLayer);
+  [['aerian','#F28C00'],['teren','#2E8B57']].forEach(([kind,col]) => DR[kind].forEach((p,k) => {
+    if (p.lat==null) return;
+    const ic = L.divIcon({className:'',iconSize:[12,12],iconAnchor:[6,6],html:`<div style="width:12px;height:12px;background:${col};border:1.5px solid #fff;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.3)"></div>`});
+    L.marker([p.lat,p.lon],{icon:ic}).addTo(drLayer).bindPopup(`<div class="pop" style="width:220px"><img src="${p.thumb}" style="width:100%;border-radius:3px;display:block;margin-bottom:6px"><b>${kind==='aerian'?'Dronă':'Recunoaștere'} ${k+1}</b><br>${fmtDate(p.data)} ${p.ora||''}${p.h_teren!=null?`<br>h ≈ ${p.h_teren} m față de teren`:''}<br><a href="#" data-dr="${kind}:${k}">Mărește →</a></div>`);
+  }));
+  map.on('popupopen', e => { const a = e.popup.getElement().querySelector('a[data-dr]'); if (a) a.onclick = ev => { ev.preventDefault(); const [kind,k]=a.dataset.dr.split(':'); openLB(drImgs(kind), +k); }; });
+  const btn = document.getElementById('btn-dr');
+  btn.onclick = () => { drOn=!drOn; if(drOn) drLayer.addTo(map); else map.removeLayer(drLayer); btn.textContent = 'Poziții dronă: '+(drOn?'afișate':'ascunse'); };
+}
 
 /* ============================ HOME ============================ */
 function renderHome(){
@@ -580,7 +638,8 @@ function renderDays(){
     const w = wxOf(d==='—'?null:d);
     const wx = d==='—' ? `<div class="wx">data execuției nu este consemnată în fișă</div>` : (w ? `<div class="wx">${wxIcon(w.weather_code)}<div><b>${n1(w.temperature_2m_min)} … ${n1(w.temperature_2m_max)} °C</b><br>${WMO[w.weather_code]||'—'} · ${n1(w.precipitation_sum)} mm · vânt ${windDir(w.wind_direction_10m_dominant)} ${n1(w.wind_speed_10m_max)} km/h</div></div>` : `<div class="wx">meteo indisponibil</div>`);
     const ids = byDay[d].sort((a,b)=>numSort(a.id,b.id)).map(x=>`<a class="fc" href="${x.href}">${x.id}</a>`).join('');
-    return `<div class="day ${d==='—'?'nodate':''}"><div class="d">${d==='—'?'Dată necompletată':fmtDateL(d)}</div>${wx}<div style="font-size:12.5px;color:var(--ink-3)">${byDay[d].length} foraje · ${byDay[d].reduce((s,x)=>s+x.ad,0).toFixed(1).replace('.',',')} m</div><div class="ids">${ids}</div></div>`;
+    const nd = DR.aerian.filter(p=>p.data===d).length, nt = DR.teren.filter(p=>p.data===d).length;
+    return `<div class="day ${d==='—'?'nodate':''}"><div class="d">${d==='—'?'Dată necompletată':fmtDateL(d)}</div>${wx}<div style="font-size:12.5px;color:var(--ink-3)">${byDay[d].length} foraje · ${byDay[d].reduce((s,x)=>s+x.ad,0).toFixed(1).replace('.',',')} m</div><div class="ids">${ids}</div>${nd||nt?`<div style="font-size:12.5px;margin-top:7px"><a href="#/drona">zbor cu drona: ${nd} fotografii aeriene${nt?` + ${nt} de recunoaștere`:''}</a></div>`:''}</div>`;
   }).join('') + '</div>';
   const m = D.meteo && D.meteo._meta;
   document.getElementById('wx-src').textContent = m ? `sursă meteo: ${m.sursa}, grilă ${m.lat}°N ${m.lon}°E, alt. ${m.elevatie_m} m` : '';
@@ -797,7 +856,7 @@ function route(){
   if (m){ home.style.display='none'; det.classList.add('open'); renderDetail(m[1]); window.scrollTo(0,0); return; }
   det.classList.remove('open'); home.style.display='block';
   if (map) setTimeout(()=>map.invalidateSize(),50);
-  const sec = {'/harta':'harta','/foraje':'foraje','/laborator':'laborator','/zile':'zile','/tabel':'tabel'}[h];
+  const sec = {'/harta':'harta','/drona':'drona','/foraje':'foraje','/laborator':'laborator','/zile':'zile','/tabel':'tabel'}[h];
   if (sec) document.getElementById(sec).scrollIntoView({behavior:'smooth'}); else if (h==='/') window.scrollTo({top:0});
 }
 window.addEventListener('hashchange', route);
@@ -807,6 +866,8 @@ fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d => {
   D = d; INV = d.investigatii.slice().sort((a,b)=> numSort(a.id,b.id));
   LAB = INV.flatMap(i => i.lab.map(p => Object.assign({foraj:i.id}, p)));
   try { renderHome(); } catch(e){ console.error(e); }
+  fetch('drona.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(j => { if(!j) return; DR = j; try { renderDrona(); renderDays(); addDroneLayer(); } catch(e){ console.error(e); } }).catch(()=>{});
+  document.getElementById('dr-chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; drFilt=b.dataset.f; document.querySelectorAll('#dr-chips .chip').forEach(c=>c.classList.toggle('on',c===b)); renderDrona(); };
   fetch('terrain.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; filt=b.dataset.f; document.querySelectorAll('#chips .chip').forEach(c=>c.classList.toggle('on',c===b)); renderGrid(); };

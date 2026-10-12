@@ -11,6 +11,9 @@ apa (infiltrații), cota terenului din ridicarea topografică, GPS + Stereo 70, 
 (w, w<sub>P</sub>–w<sub>L</sub>, I<sub>C</sub>), tabelul rezultatelor de laborator, poziția în diagrama Casagrande,
 meteo în ziua execuției, mini-hartă.
 
+Fotografii aeriene: 24 de cadre din zborul cu drona din 12.09.2026 (DJI FC8582) + 9 fotografii de recunoaștere geoetichetate,
+galerie cu lightbox, traseul zborului și pozițiile pe hartă, înălțimea aproximativă față de teren.
+
 Plus: intro 3D (bloc de teren din ridicarea topografică, clădirile propuse, forajele „extrase” în ordinea execuției),
 hartă cu limita proprietății, marginea lacului și clădirile propuse, stadiu, calendar, centralizatoare + CSV.
 
@@ -23,6 +26,8 @@ data.json             foraje + laborator + clădiri + meteo (generat)
 terrain.json          grilă de cote 40×40 din DEM-ul 1 m al ridicării topografice
 photos/<ID>/          poze optimizate (1200 px) + miniaturi t_*.jpg + fisa1.jpg … (generat)
 scripts/build_data.py generatorul data.json + poze
+scripts/build_drona.py  prelucrarea pozelor din dronă / recunoaștere -> photos/drona, photos/teren, drona.json
+drona.json            pozițiile, ora și înălțimea fotografiilor aeriene și de recunoaștere (generat)
 scripts/meteo.json    răspunsul Open-Meteo (archive) pentru 10–15.09.2026
 ```
 
@@ -43,6 +48,12 @@ python3 scripts/build_data.py \
   --csv "../1. Input/Balotesti_foraje_coordonate.csv" --kmz "../1. Input/Balotesti_NC66359_cladiri_foraje.kmz" \
   --cote "../5. Prelucrare date/coordonate (1).csv" --lab "../5. Prelucrare date/probe.json" \
   --clasif "../5. Prelucrare date/clasificare_probe.csv" --poze "../3. Poze" --meteo scripts/meteo.json --out .
+```
+
+Pozele din dronă (album Google Foto „Balotesti str. Lacului 2026”, descărcat în `3. Poze\drona`):
+
+```bash
+python3 scripts/build_drona.py --src "../3. Poze/drona" --terrain terrain.json --out .
 ```
 
 Necesită `openpyxl` și `Pillow`. Pozele deja procesate sunt sărite.
