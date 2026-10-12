@@ -803,11 +803,11 @@ function route(){
 window.addEventListener('hashchange', route);
 
 /* ============================ INIT ============================ */
-fetch('data.json').then(r=>r.json()).then(d => {
+fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d => {
   D = d; INV = d.investigatii.slice().sort((a,b)=> numSort(a.id,b.id));
   LAB = INV.flatMap(i => i.lab.map(p => Object.assign({foraj:i.id}, p)));
   try { renderHome(); } catch(e){ console.error(e); }
-  fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
+  fetch('terrain.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('chips').onclick = e => { const b=e.target.closest('.chip'); if(!b) return; filt=b.dataset.f; document.querySelectorAll('#chips .chip').forEach(c=>c.classList.toggle('on',c===b)); renderGrid(); };
   document.getElementById('q').oninput = e => { q=e.target.value.trim().toLowerCase(); renderGrid(); };
