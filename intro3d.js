@@ -7,9 +7,9 @@
    ============================================================ */
 (function () {
   const VE = 3;             // exagerare verticală relief (amplitudine ~14 m la Balotești)
-  const CORE_S = 9;         // 1 m de foraj = 9 m în scenă
+  const CORE_S = 6.5;       // 1 m de foraj = 6,5 m în scenă
   const R_F = 3.4, R_C = 2; // raza carotei de foraj (m în plan)
-  const GAP = 12;           // distanța dintre teren și baza carotei extrase
+  const GAP = 8;           // distanța dintre teren și baza carotei extrase
   const BLUE = 0x0069B4, ORANGE = 0xF28C00, NAVY = 0x0A2F4F, WATER = 0x1F8FD8;
 
   window.initIntro3D = function (D, INV, T) {
